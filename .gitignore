@@ -1,0 +1,9 @@
+public/
+resources/
+*~
+**/__pycache__
+/.hugo_build.lock
+
+.vscode/
+.idea/*
+.DS_Store
