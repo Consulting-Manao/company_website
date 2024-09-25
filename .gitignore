@@ -7,3 +7,13 @@ resources/
 .vscode/
 .idea/*
 .DS_Store
+
+# website and dApp
+node_modules
+
+# Production
+build
+
+# Generated files
+.docusaurus
+.cache-loader
