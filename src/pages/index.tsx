@@ -39,6 +39,24 @@ export default function Home(): React.JSX.Element {
       <main>
         <HomepageFeatures />
       </main>
+
+    <hr />
+
+    <p></p>
+    <div className="feedback-card">
+      <div className="feedback-header">
+        Old school email
+      </div>
+      <form name="contact" className="feedback-body" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <input type="email" className="feedback-body__email" placeholder="Email" />
+        <textarea className="feedback-body__message" placeholder="Message"></textarea>
+        <div data-netlify-recaptcha="true"></div>
+        <button type="submit" className="feedback-body__submit">SEND</button>
+      </form>
+    </div>
+    <p></p>
+    <p></p>
+
     </Layout>
   );
 }
