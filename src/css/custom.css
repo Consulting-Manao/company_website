@@ -30,11 +30,7 @@
   display: flex;
   flex-direction: column;
 }
-.feedback-body__message {
-  margin-top: 10px;
-  min-height: 50px;
-  resize: vertical;
-}
+
 .feedback-body button {
   cursor: pointer;
   margin-top: 10px;

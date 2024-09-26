@@ -48,10 +48,17 @@ export default function Home(): React.JSX.Element {
         Old school email
       </div>
       <form name="contact" className="feedback-body" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-        <input type="email" className="feedback-body__email" placeholder="Email" />
-        <textarea className="feedback-body__message" placeholder="Message"></textarea>
+        <p>
+          <label>Your Name : <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
         <div data-netlify-recaptcha="true"></div>
-        <button type="submit" className="feedback-body__submit">SEND</button>
+        <button type="submit">SEND</button>
       </form>
     </div>
     <p></p>
