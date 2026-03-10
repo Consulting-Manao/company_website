@@ -72,7 +72,7 @@ const config: Config = {
         // },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/tupui',
+          href: 'https://github.com/Consulting-Manao',
           label: 'GitHub',
           position: 'right',
         },
